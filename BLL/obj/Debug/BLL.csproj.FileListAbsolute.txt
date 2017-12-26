@@ -1,0 +1,11 @@
+D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\BLL\bin\Debug\BLL.dll
+D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\BLL\bin\Debug\BLL.pdb
+D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\BLL\bin\Debug\DTO.dll
+D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\BLL\bin\Debug\DTO.pdb
+D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\BLL\obj\Debug\BLL.dll
+D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\BLL\obj\Debug\BLL.pdb
+C:\Users\dnlro\OneDrive\Documents\Visual Studio 2015\Projects\GitHub\HotelReservationMVC\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\dnlro\OneDrive\Documents\Visual Studio 2015\Projects\GitHub\HotelReservationMVC\BLL\obj\Debug\BLL.dll
+C:\Users\dnlro\OneDrive\Documents\Visual Studio 2015\Projects\GitHub\HotelReservationMVC\BLL\obj\Debug\BLL.pdb
