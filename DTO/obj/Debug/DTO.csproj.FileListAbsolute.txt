@@ -8,3 +8,4 @@ C:\Users\dnlro\OneDrive\Documents\Visual Studio 2015\Projects\GitHub\HotelReserv
 C:\Users\dnlro\OneDrive\Documents\Visual Studio 2015\Projects\GitHub\HotelReservationMVC\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 C:\Users\dnlro\OneDrive\Documents\Visual Studio 2015\Projects\GitHub\HotelReservationMVC\DTO\obj\Debug\DTO.dll
 C:\Users\dnlro\OneDrive\Documents\Visual Studio 2015\Projects\GitHub\HotelReservationMVC\DTO\obj\Debug\DTO.pdb
+D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache

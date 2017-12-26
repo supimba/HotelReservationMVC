@@ -22,7 +22,7 @@ namespace HotelReservationApp.Controllers
             DTO.Hotel h = new DTO.Hotel { };
             ser.PostHotel(h);
 
-            return View(ser.GetReservation());
+            return View(ser.GetHotel());
         }
     }
 }
