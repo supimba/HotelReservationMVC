@@ -23,6 +23,7 @@ namespace BLL
                 Task<string> response = client.GetStringAsync(url);
                 //TODO FIX JSON ERROR
                 return JsonConvert.DeserializeObject<List<Reservation>>(response.Result);
+                //Test Commit
             }
         }
 
