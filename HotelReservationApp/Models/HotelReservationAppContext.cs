@@ -20,5 +20,9 @@ namespace HotelReservationApp.Models
         }
 
         public System.Data.Entity.DbSet<DTO.Reservation> Reservations { get; set; }
+
+        public System.Data.Entity.DbSet<DTO.Hotel> Hotels { get; set; }
+
+        public System.Data.Entity.DbSet<DTO.Room> Rooms { get; set; }
     }
 }

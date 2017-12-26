@@ -1,20 +1,20 @@
-﻿using System;
+﻿using DTO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using System.Net.Http;
 using Newtonsoft.Json;
-using DTO;
 
 namespace BLL
 {
-    public class ReservationsRESTService
+    public class HotelsRESTService
     {
-        readonly string baseUrl = "http://localhost:3749/api/Reservations/";
+        readonly string baseUrl = "http://localhost:3749/api/Hotels/";
 
-        //This method is used to return all Reservation
-        public List<Reservation> GetReservation()
+        //This method is used to return all Hotel
+        public List<Hotel> GetHotel()
         {
             string url = baseUrl;
 
@@ -27,12 +27,12 @@ namespace BLL
             }
         }
 
-        public bool PostReservation(Reservation r)
+        public bool PostHotel(Hotel h)
         {
             string uri = baseUrl;
             using (HttpClient httpClient = new HttpClient())
             {
-                string pro = JsonConvert.SerializeObject(r);
+                string pro = JsonConvert.SerializeObject(h);
                 StringContent frame = new StringContent(pro, Encoding.UTF8, "Application/json");
                 Task<HttpResponseMessage> response = httpClient.PostAsync(uri, frame);
                 return response.Result.IsSuccessStatusCode;
