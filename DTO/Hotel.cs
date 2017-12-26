@@ -5,7 +5,7 @@ namespace DTO
 {
     public class Hotel
     {
-        //Test ddd
+        //Commit try
 
         [Key]
         public int IdHotel { get; set; }
