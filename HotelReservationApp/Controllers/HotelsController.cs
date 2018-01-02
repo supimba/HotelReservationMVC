@@ -24,5 +24,19 @@ namespace HotelReservationApp.Controllers
 
             return View(ser.GetHotel());
         }
+
+        public ActionResult ListHotels()
+        {
+            DTO.Hotel h = new DTO.Hotel { };
+            ser.PostHotel(h);
+
+            return View(ser.GetHotel());
+        }
+
+        public ActionResult SearchHotel()
+        {
+            return View();
+        }
+
     }
 }

@@ -5,21 +5,18 @@ namespace DTO
 {
     public class Hotel
     {
-        //Commit try
-
         [Key]
         public int IdHotel { get; set; }
 
         [MaxLength(50)]
         public string Name { get; set; }
-        // ne pas oublier l'annotation
+
         public string Description { get; set; }
 
         [MaxLength(50)]
         public string Location { get; set; }
         public int Category { get; set; }
 
-        // pou metre null -> bool? ou <Nullabale>
         public bool HasWifi { get; set; }
         public bool HasParking { get; set; }
         [MaxLength(20)]

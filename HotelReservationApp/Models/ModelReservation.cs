@@ -5,10 +5,10 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace HotelReservationApp.Scripts.Models
+namespace HotelReservationApp.Models
 {
     //This class is used to select a date in reservation's view
-    public class Models
+    public class ModelReservation
     {
         [Key]
         public int IdReservation { get; set; }

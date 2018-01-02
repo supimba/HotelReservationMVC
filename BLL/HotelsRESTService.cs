@@ -21,9 +21,7 @@ namespace BLL
             using (HttpClient client = new HttpClient())
             {
                 Task<string> response = client.GetStringAsync(url);
-                //TODO FIX JSON ERROR
                 return JsonConvert.DeserializeObject<List<Hotel>>(response.Result);
-                //Test Commit
             }
         }
 
