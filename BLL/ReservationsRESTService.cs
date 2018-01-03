@@ -11,7 +11,7 @@ namespace BLL
 {
     public class ReservationsRESTService
     {
-        readonly string baseUrl = "http://localhost:3749/api/Reservations/";
+        readonly string baseUrl = "http://localhost:12220/api/Reservations/";
 
         //This method is used to return all Reservation
         public List<Reservation> GetReservation()
@@ -21,12 +21,11 @@ namespace BLL
             using (HttpClient client = new HttpClient())
             {
                 Task<string> response = client.GetStringAsync(url);
-                //TODO FIX JSON ERROR
                 return JsonConvert.DeserializeObject<List<Reservation>>(response.Result);
-                //Test Commit
             }
         }
 
+        //This method is used to post a reservation
         public bool PostReservation(Reservation r)
         {
             string uri = baseUrl;

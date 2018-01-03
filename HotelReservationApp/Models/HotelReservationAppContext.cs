@@ -14,7 +14,7 @@ namespace HotelReservationApp.Models
         // automatically whenever you change your model schema, please use data migrations.
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
-    
+
         public HotelReservationAppContext() : base("name=HotelReservationAppContext")
         {
         }
@@ -23,6 +23,8 @@ namespace HotelReservationApp.Models
 
         public System.Data.Entity.DbSet<DTO.Hotel> Hotels { get; set; }
 
-        public System.Data.Entity.DbSet<DTO.Room> Rooms { get; set; }
+        //public System.Data.Entity.DbSet<DTO.Room> Rooms { get; set; }
+
+        public System.Data.Entity.DbSet<ModelRoom> Rooms { get; set;}
     }
 }

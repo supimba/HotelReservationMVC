@@ -160,11 +160,13 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HotelsController.cs" />
     <Compile Include="Controllers\ReservationsController.cs" />
+    <Compile Include="Controllers\RoomsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\HotelReservationAppContext.cs" />
     <Compile Include="Models\ModelReservation.cs" />
+    <Compile Include="Models\ModelRoom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -204,10 +206,9 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Rooms\Room.cshtml" />
-    <Content Include="Views\Reservations\Index.cshtml" />
+    <Content Include="Views\Reservations\CreateReservation.cshtml" />
     <Content Include="Views\Hotels\ListHotels.cshtml" />
-    <Content Include="Views\Hotels\SearchHotel.cshtml" />
+    <Content Include="Views\Rooms\SearchRoom.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

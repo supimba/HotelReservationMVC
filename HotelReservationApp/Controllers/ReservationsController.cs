@@ -17,7 +17,7 @@ namespace HotelReservationApp.Controllers
     {
         // GET: Reservation
         ReservationsRESTService ser = new ReservationsRESTService();
-        public ActionResult Index()
+        public ActionResult CreateReservation()
         {
             //DTO.Reservation r = new DTO.Reservation {  };
             //ser.PostReservation(r);

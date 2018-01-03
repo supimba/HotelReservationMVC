@@ -1,8 +1,11 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
@@ -13,24 +16,15 @@ using BLL;
 
 namespace HotelReservationApp.Controllers
 {
-    public class HotelsController : Controller
+    public class RoomsController : Controller
     {
-        // GET: Hotel
-        HotelsRESTService ser = new HotelsRESTService();
+
+        RoomsRESTService ser = new RoomsRESTService();// Access to the API
 
         DTO.Hotel h = new DTO.Hotel { };
-        public ActionResult Index()
+        public ActionResult SearchRoom(ModelRoom mr)
         {
-           // ser.PostHotel(h);
-
-            return View(ser.GetHotel());
+            return View(ser.GetRoomByDateLoc(mr.StartDate, mr.EndDate, mr.Location));
         }
-
-        public ActionResult ListHotels()
-        {            
-
-            return View(ser.GetHotel());
-        }
-
     }
 }
