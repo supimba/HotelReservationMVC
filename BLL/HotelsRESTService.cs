@@ -13,7 +13,7 @@ namespace BLL
     {
         readonly string baseUrl = "http://localhost:3749/api/Hotels/";
 
-        //This method is used to return all Hotel
+        //Method used to return all Hotel
         public List<Hotel> GetHotel()
         {
             string url = baseUrl;
@@ -25,6 +25,8 @@ namespace BLL
             }
         }
 
+        //No need to post a hotel in the API
+        /*
         public bool PostHotel(Hotel h)
         {
             string uri = baseUrl;
@@ -35,6 +37,7 @@ namespace BLL
                 Task<HttpResponseMessage> response = httpClient.PostAsync(uri, frame);
                 return response.Result.IsSuccessStatusCode;
             }
-        }
+        }*/
+
     }
 }

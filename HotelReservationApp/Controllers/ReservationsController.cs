@@ -19,10 +19,10 @@ namespace HotelReservationApp.Controllers
         ReservationsRESTService ser = new ReservationsRESTService();
         public ActionResult Index()
         {
-            DTO.Reservation r = new DTO.Reservation {  };
-            ser.PostReservation(r);
+            //DTO.Reservation r = new DTO.Reservation {  };
+            //ser.PostReservation(r);
 
-            return View(ser.GetReservation());
+            return View();//ser.GetReservation());
         }
     }
 }

@@ -8,3 +8,6 @@ D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\DTO\bin\Deb
 D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\DTO\obj\Debug\DTO.dll
 D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\DTO\obj\Debug\DTO.pdb
+D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\DTO\bin\Debug\Newtonsoft.Json.dll
+D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\DTO\bin\Debug\Newtonsoft.Json.xml
+D:\HES\7e semestre\634-1_ComposantPattern\Projet\HotelReservationMVC\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache

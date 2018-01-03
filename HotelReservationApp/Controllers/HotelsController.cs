@@ -17,26 +17,26 @@ namespace HotelReservationApp.Controllers
     {
         // GET: Hotel
         HotelsRESTService ser = new HotelsRESTService();
+
+        DTO.Hotel h = new DTO.Hotel { };
         public ActionResult Index()
         {
-            DTO.Hotel h = new DTO.Hotel { };
-            ser.PostHotel(h);
+           // ser.PostHotel(h);
 
             return View(ser.GetHotel());
         }
 
         public ActionResult ListHotels()
-        {
-            DTO.Hotel h = new DTO.Hotel { };
-            ser.PostHotel(h);
+        {            
 
-            return View(ser.GetHotel());
+            return View();
         }
 
         public ActionResult SearchHotel()
         {
             return View();
         }
+        
 
     }
 }
