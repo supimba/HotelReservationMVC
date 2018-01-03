@@ -11,7 +11,7 @@ namespace BLL
 {
     public class ReservationsRESTService
     {
-        readonly string baseUrl = "http://localhost:3749/api/Reservations/";
+        readonly string baseUrl = "http://localhost:12220/api/Reservations/";
 
         //This method is used to return all Reservation
         public List<Reservation> GetReservation()

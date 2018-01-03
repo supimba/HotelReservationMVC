@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/HotelReservationMVC/
+/HotelReservationApp/Content/style.css
+/HotelReservationApp/Content/animate.css
+/HotelReservationApp/Content/bootstrap-theme.css
+/HotelReservationApp/Content/bootstrap-theme.css.map
+/HotelReservationApp/Content/modalstyles.css
+/HotelReservationApp/Content/icon-font.min.css
+/HotelReservationApp/Content/font-awesome.css
+/HotelReservationApp/Content/bootstrap.min.css.map
+/HotelReservationApp/Content/css/animate.css
+/HotelReservationApp/Content/bootstrap-theme.min.css
+/HotelReservationApp/Content/bootstrap-theme.min.css.map
+/HotelReservationApp/fonts/glyphicons-halflings-regular.woff2
+/BLL/obj/Debug/build.force
+/HotelReservationApp/obj/Debug/build.force

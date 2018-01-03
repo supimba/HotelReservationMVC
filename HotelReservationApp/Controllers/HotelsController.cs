@@ -29,7 +29,7 @@ namespace HotelReservationApp.Controllers
         public ActionResult ListHotels()
         {            
 
-            return View();
+            return View(ser.GetHotel());
         }
 
         public ActionResult SearchHotel()
